@@ -22,37 +22,52 @@ Stop-Process -processName: Explorer -force
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # Development
-cinst git
-cinst gitextensions
-cinst githubforwindows
-cinst cmder
-cinst 7zip
-cinst vcode
-cinst notepadplusplus
-cinst visualstudiocode
-cinst golang
-cinst python3
-cinst pip
-cinst easy.install
+cinst git -y
+cinst gitextensions -y
+cinst githubforwindows -y
+cinst cmder -y
+cinst 7zip -y
+cinst vcode -y
+cinst vscode-powershell -y
+cinst notepadplusplus -y
+cinst visualstudiocode -y
+cinst golang -y
+cinst python3 -y
+cinst pip -y
+cinst easy.install -y
+cinst fiddler -y
+cinst sql-server-management-studio -y
+
 
 # System Related
-cinst terraform
-cinst packer
-cinst virutalbox
-cinst virtualbox.extensionpack
-cinst vagrant
+cinst terraform -y
+cinst packer -y
+cinst virutalbox -y
+cinst virtualbox.extensionpack -y
+cinst vagrant -y
+cinst winrar -y
+cinst winscp -y
+cinst wireshark -y
+cinst filezilla -y
+cinst kubernetes-cli -y
+cinst iperf3 -y
 
 # Browser
-cinst firefox
-cinst GoogleChrome
+cinst firefox -y
+cinst chromium -y
 
 # cloud related
-cinst awscli
+cinst awscli -y
+cinst azurepowershell -y
 
 
 # misc
-cinst vlc
-cinst slack
-cinst rufus
+cinst vlc -y
+cinst slack -y
+cinst rufus -y
+cinst keepass.install -y
+cinst lastpass -y
+cinst lastpass-chrome -y
 
-
+# security tools
+cinst nmap -y

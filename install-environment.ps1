@@ -28,16 +28,14 @@ cinst githubforwindows -y
 cinst cmder -y
 cinst 7zip -y
 cinst vcode -y
-cinst vscode-powershell -y
 cinst notepadplusplus -y
 cinst visualstudiocode -y
+cinst vscode-docker -y
 cinst golang -y
 cinst python3 -y
 cinst pip -y
 cinst easy.install -y
 cinst fiddler -y
-cinst sql-server-management-studio -y
-
 
 # System Related
 cinst terraform -y
@@ -48,9 +46,6 @@ cinst vagrant -y
 cinst winrar -y
 cinst winscp -y
 cinst wireshark -y
-cinst filezilla -y
-cinst kubernetes-cli -y
-cinst iperf3 -y
 
 # Browser
 cinst firefox -y
@@ -58,8 +53,13 @@ cinst chromium -y
 
 # cloud related
 cinst awscli -y
-cinst azurepowershell -y
 
+# containers related
+cinst kubernetes-cli -y
+cinst trivy -y
+cinst docker-cli -y
+cinst kubernetes-kompose -y
+cinst kubernetes-helm -y
 
 # misc
 cinst vlc -y

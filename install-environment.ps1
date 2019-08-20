@@ -31,21 +31,23 @@ cinst vcode -y
 cinst notepadplusplus -y
 cinst visualstudiocode -y
 cinst vscode-docker -y
+cinst vscode-powershell -y
 cinst golang -y
 cinst python3 -y
 cinst pip -y
 cinst easy.install -y
 cinst fiddler -y
+cinst vmware-powercli-psmodule -y
 
 # System Related
 cinst terraform -y
 cinst packer -y
 cinst virutalbox -y
-cinst virtualbox.extensionpack -y
 cinst vagrant -y
 cinst winrar -y
 cinst winscp -y
 cinst wireshark -y
+
 
 # Browser
 cinst firefox -y

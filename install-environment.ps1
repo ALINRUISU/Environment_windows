@@ -56,6 +56,8 @@ cinst chromium -y
 
 # cloud related
 cinst awscli -y
+cinst azure-cli -y
+cinst gcloudsdk -y
 
 # containers related
 cinst kubernetes-cli -y
@@ -64,6 +66,7 @@ cinst docker-cli -y
 cinst kubernetes-kompose -y
 cinst kubernetes-helm -y
 cinst kubeval -y
+cinst eksctl -y
 cinst aksctl -y
 cinst kubens -y
 cinst kubectx -y

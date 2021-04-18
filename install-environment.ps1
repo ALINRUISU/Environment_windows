@@ -32,6 +32,7 @@ cinst notepadplusplus -y
 cinst visualstudiocode -y
 cinst vscode-docker -y
 cinst vscode-powershell -y
+cinst vscode-kubernetes-tools -y
 cinst golang -y
 cinst python3 -y
 cinst pip -y
@@ -62,6 +63,12 @@ cinst trivy -y
 cinst docker-cli -y
 cinst kubernetes-kompose -y
 cinst kubernetes-helm -y
+cinst kubeval -y
+cinst aksctl -y
+cinst kubens -y
+cinst kubectx -y
+cinst kubernetes-kops -y
+cinst istioctl -y
 
 # misc
 cinst vlc -y
